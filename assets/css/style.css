@@ -1,18 +1,18 @@
 body {
-  background-color: rgba(224, 230, 234, .2);
+  background-color: #2B2B2B;
   color: #868e96;
   font-family: 'Open Sans', serif;
   padding-top: 54px;
 }
 
-nav { background-color: #1DBFAF; }
+nav { background-color: #3C3F41; }
 
 button:focus { outline: none; }
 
 h1,
 h2,
 h3 {
-  color: #3c4249;
+  color: darkgray;
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -26,8 +26,8 @@ h1 {
 h2 { font-size: 3.5rem; }
 
 .subheading {
-  font-family: 'Saira Extra Condensed', serif;
-  font-size: 1.35rem;
+  font-family: 'Open Sans', serif;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -47,14 +47,14 @@ h2 { font-size: 3.5rem; }
 .fa-ul i { color: rgba(21, 191, 175, .7); }
 
 a {
-  color: #1DBFAF;
+  color: lightgray;
   transition: color .3s;
 }
 
 a:hover, 
 a:focus, 
 a:active {
-  color: #1bb0a1;
+  color: #07BDAE;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -64,14 +64,14 @@ a:active {
 
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: rgba(48, 61, 70, .75);
+  color: #07BDAE /*rgba(48, 61, 70, .75)*/;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
-  color: rgba(48, 61, 70, 1);
+  color: #07BDAE /*rgba(48, 61, 70, 1)*/;
 }
 
 section.resume-section {
@@ -82,7 +82,7 @@ section.resume-section {
 
 section.resume-section .resume-item .resume-date { min-width: none; }
 
-.text-acqua-color { color: #1DBFAF !important; }
+.text-acqua-color { color: whitesmoke !important; }
 .text-work-in-progress { color: #ff6b44 !important;}
 
 /*************************
@@ -167,3 +167,55 @@ section.resume-section .resume-item .resume-date { min-width: none; }
   }
 }
 
+/**********************
+      SKILL BAR
+ ******************/
+#skill {
+  list-style:none;
+  padding-top:30px;
+}
+
+#skill li {
+  margin-bottom:70px;
+  background:#000;
+  height:5px;
+  border-radius:3px;
+  border-left:1px solid #111;
+  border-top:1px solid #111;
+  border-right:1px solid #333;
+  border-bottom:1px solid #333;
+}
+
+#skill li em {
+  position:relative;
+  top:-30px;
+}
+
+.expand {
+  height:1px;
+  margin:2px 0;
+  background:#2187e7;
+  position:absolute;
+  box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);
+}
+
+.html5       { width:75%;  -moz-animation:html5 2s ease-out;       -webkit-animation:html5 2s ease-out;       }
+.web       { width:65%;  -moz-animation:web 2s ease-out;       -webkit-animation:web 2s ease-out;       }
+.css3        { width:80%;  -moz-animation:css3 2s ease-out;        -webkit-animation:css3 2s ease-out;        }
+.jquery      { width:90%;  -moz-animation:jquery 2s ease-out;      -webkit-animation:jquery 2s ease-out;      }
+.photoshop   { width:75%;  -moz-animation:photoshop 2s ease-out;   -webkit-animation:photoshop 2s ease-out;   }
+.dreamweaver { width:90%; -moz-animation:dreamweaver 2s ease-out; -webkit-animation:dreamweaver 2s ease-out; }
+
+@-moz-keyframes html5       { 0%  { width:0px;} 100%{ width:75%;}  }
+@-moz-keyframes web       { 0%  { width:0px;} 100%{ width:65%;}  }
+@-moz-keyframes css3        { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes photoshop   { 0%  { width:0px;} 100%{ width:75%;}  }
+@-moz-keyframes dreamweaver { 0%  { width:0px;} 100%{ width:90%;} }
+
+@-webkit-keyframes html5       { 0%  { width:0px;} 100%{ width:75%;}  }
+@-webkit-keyframes web       { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes css3        { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes photoshop   { 0%  { width:0px;} 100%{ width:75%;}  }
+@-webkit-keyframes dreamweaver { 0%  { width:0px;} 100%{ width:90%;} }
