@@ -5,7 +5,10 @@ body {
   padding-top: 54px;
 }
 
-nav { background-color: RGB(60,63,65); }
+nav {
+  background: url(../img/NavBar3.jpg) 50% 0 no-repeat fixed;
+  /*background-color: RGB(60,63,65); */
+}
 
 button:focus { outline: none; }
 
@@ -60,6 +63,10 @@ a:active {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
+}
+
+#about {
+  background: url("../img/about7.jpg") 50% 0 no-repeat fixed;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
