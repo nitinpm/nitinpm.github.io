@@ -1,11 +1,11 @@
 body {
-  background-color: #2B2B2B;
-  color: #868e96;
+  background-color: white;
+  color: RGB(60,63,65);
   font-family: 'Open Sans', serif;
   padding-top: 54px;
 }
 
-nav { background-color: #3C3F41; }
+nav { background-color: RGB(60,63,65); }
 
 button:focus { outline: none; }
 
@@ -41,20 +41,20 @@ h2 { font-size: 3.5rem; }
   transition: color .3s;
 }
 
-.social-icons a:hover { color: #1DBFAF; }
+.social-icons a:hover { color: rgba(21, 191, 175, 1); }
 .social-icons a .fa-lg { font-size: 1.75rem; }
 
-.fa-ul i { color: rgba(21, 191, 175, .7); }
+.fa-ul i { color: rgba(21, 191, 175, 1); }
 
 a {
-  color: lightgray;
+  color: rgba(21, 191, 175, 1) ;
   transition: color .3s;
 }
 
 a:hover, 
 a:focus, 
 a:active {
-  color: #07BDAE;
+  color: orange;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -80,9 +80,9 @@ section.resume-section {
   padding-bottom: 5rem !important;
 }
 
-section.resume-section .resume-item .resume-date { min-width: none; }
+section.resume-section .resume-item .resume-date {  }
 
-.text-acqua-color { color: whitesmoke !important; }
+.text-acqua-color { color: rgba(21, 191, 175, 1) !important; }
 .text-work-in-progress { color: #ff6b44 !important;}
 
 /*************************
@@ -172,12 +172,12 @@ section.resume-section .resume-item .resume-date { min-width: none; }
  ******************/
 #skill {
   list-style:none;
-  padding-top:30px;
+  padding-top:10px;
 }
 
 #skill li {
   margin-bottom:70px;
-  background:#000;
+  background:lightslategray;
   height:5px;
   border-radius:3px;
   border-left:1px solid #111;
@@ -192,30 +192,33 @@ section.resume-section .resume-item .resume-date { min-width: none; }
 }
 
 .expand {
-  height:1px;
-  margin:2px 0;
-  background:#2187e7;
+  height:3px;
+  margin:1px 0;
+  background:orange;
   position:absolute;
-  box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);
+  box-shadow:0px 0px 10px 2px slategray;
 }
 
-.html5       { width:75%;  -moz-animation:html5 2s ease-out;       -webkit-animation:html5 2s ease-out;       }
+.html5       { width:80%;  -moz-animation:html5 2s ease-out;       -webkit-animation:html5 2s ease-out;       }
 .web       { width:65%;  -moz-animation:web 2s ease-out;       -webkit-animation:web 2s ease-out;       }
-.css3        { width:80%;  -moz-animation:css3 2s ease-out;        -webkit-animation:css3 2s ease-out;        }
-.jquery      { width:90%;  -moz-animation:jquery 2s ease-out;      -webkit-animation:jquery 2s ease-out;      }
+.java        { width:80%;  -moz-animation:css3 2s ease-out;        -webkit-animation:css3 2s ease-out;        }
+.jquery      { width:85%;  -moz-animation:jquery 2s ease-out;      -webkit-animation:jquery 2s ease-out;      }
 .photoshop   { width:75%;  -moz-animation:photoshop 2s ease-out;   -webkit-animation:photoshop 2s ease-out;   }
-.dreamweaver { width:90%; -moz-animation:dreamweaver 2s ease-out; -webkit-animation:dreamweaver 2s ease-out; }
+.dreamweaver { width:85%; -moz-animation:dreamweaver 2s ease-out; -webkit-animation:dreamweaver 2s ease-out; }
+.container   {width:70%;  -moz-animation:container 2s ease-out;       -webkit-animation:container 2s ease-out;    }
 
-@-moz-keyframes html5       { 0%  { width:0px;} 100%{ width:75%;}  }
-@-moz-keyframes web       { 0%  { width:0px;} 100%{ width:65%;}  }
-@-moz-keyframes css3        { 0%  { width:0px;} 100%{ width:80%;}  }
-@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes html5       { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes container       { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes web       { 0%  { width:0px;} 100%{ width:60%;}  }
+@-moz-keyframes java        { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:85%;}  }
 @-moz-keyframes photoshop   { 0%  { width:0px;} 100%{ width:75%;}  }
-@-moz-keyframes dreamweaver { 0%  { width:0px;} 100%{ width:90%;} }
+@-moz-keyframes dreamweaver { 0%  { width:0px;} 100%{ width:85%;} }
 
-@-webkit-keyframes html5       { 0%  { width:0px;} 100%{ width:75%;}  }
-@-webkit-keyframes web       { 0%  { width:0px;} 100%{ width:65%;}  }
-@-webkit-keyframes css3        { 0%  { width:0px;} 100%{ width:80%;}  }
-@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes html5       { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes container       { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes web       { 0%  { width:0px;} 100%{ width:60%;}  }
+@-webkit-keyframes java        { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:85%;}  }
 @-webkit-keyframes photoshop   { 0%  { width:0px;} 100%{ width:75%;}  }
-@-webkit-keyframes dreamweaver { 0%  { width:0px;} 100%{ width:90%;} }
+@-webkit-keyframes dreamweaver { 0%  { width:0px;} 100%{ width:85%;} }
