@@ -177,7 +177,7 @@ section.resume-section .resume-item .resume-date {  }
 
 #skill li {
   margin-bottom:70px;
-  background:lightslategray;
+  background:white;
   height:5px;
   border-radius:3px;
   border-left:1px solid #111;
@@ -194,9 +194,9 @@ section.resume-section .resume-item .resume-date {  }
 .expand {
   height:3px;
   margin:1px 0;
-  background:orange;
+  background:#07BDAE;
   position:absolute;
-  box-shadow:0px 0px 10px 2px slategray;
+  box-shadow:0px 0px 10px 2px lightgray;
 }
 
 .html5       { width:80%;  -moz-animation:html5 2s ease-out;       -webkit-animation:html5 2s ease-out;       }
