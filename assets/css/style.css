@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-  background: url(../img/NavBar3.jpg) 50% 0 no-repeat fixed;
+  background: url(../img/NavBar.jpg) 50% 0 no-repeat fixed;
   /*background-color: RGB(60,63,65); */
 }
 
@@ -66,7 +66,18 @@ a:active {
 }
 
 #about {
-  background: url("../img/about7.jpg") 50% 0 no-repeat fixed;
+  background: url("../img/about.jpg") 50% 0 no-repeat fixed;
+}
+
+#skills {
+  background: url("../img/skills.jpg") 50% 0 no-repeat fixed;
+}
+#experience{
+  background: url("../img/work.jpg") 50% 0 no-repeat fixed;
+}
+
+#projects{
+  background: url("../img/work.jpg") 50% 0 no-repeat fixed;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
