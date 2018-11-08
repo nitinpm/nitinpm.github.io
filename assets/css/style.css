@@ -250,6 +250,14 @@ section.resume-section .resume-item .resume-date {  }
 CONTACT ME section
  */
 
+.btn{
+  background-color: gray ;
+  border: none;
+}
+
+.btn:hover{
+  background-color: rgba(21, 191, 175, 1);
+}
 
 .landing-page .section-contact-us .title {
   margin-bottom: 15px;
